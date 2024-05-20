@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const url = 'C:/Users/erick/Desktop/Nav%20a%C3%A9rienne/carteN.pdf';
+    const url = 'carteN.pdf';
     const pdfjsLib = window['pdfjs-dist/build/pdf'];
 
     pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdf.worker.js';
